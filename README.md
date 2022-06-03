@@ -41,10 +41,15 @@ expect(res._isEndCalled()).toBeTruthy(); // in control we need res.send() or res
 
 e.  Final thing to test is controller should return json body in response or not like below::
 
-`
+
     req.body = newTodo;
+    
     TodoModel.create.mockReturnValueOnce(newTodo); // mock the return value of models first
+    
     TodoController.createToDo(req, res, next); // call the controller method
+    
     expect(res._isJSON()).toBeTruthy(); // check response is json
+    
     expect(res._getJSONData()).toStrictEqual(newTodo); // response is sending desired json Data
-`
+    
+
