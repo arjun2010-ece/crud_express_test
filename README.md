@@ -1,3 +1,6 @@
+UNIT TESTING AND INTEGRATION TESTING
+=======================================
+
 1. Testing controller::
 
 a.  First check whether the controller has functions with "typeof".
