@@ -1,3 +1,5 @@
+This repository contains latest backend tests both unit tests and integration tests in nodejs.
+
 UNIT TESTING AND INTEGRATION TESTING
 =======================================
 
